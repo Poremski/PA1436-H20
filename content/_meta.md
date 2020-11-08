@@ -1,8 +1,8 @@
 ---
 Logo: image/leaf_256x256.png
-Tagline: My portfolio.
+Tagline: Ännu en till portfolio
 Social:
-    - title: Link till sidans github repo.
-      url: https://github.com/dbwebb-se/design-v3
+    - title: Länk till sidans repositorium på GitHub.
+      url: https://github.com/Poremski/PA1436-H20
       icon: github
 ---
