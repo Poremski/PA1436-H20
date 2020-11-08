@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg>
+<svg id="logo" width="80" height="67" viewBox="0 0 160 134" xmlns="http://www.w3.org/2000/svg">
+    <path d="M110,0H110v25h23v-25z M133,69V58H23V30H0v39c0,6.6,5.4,12,12,12h11h98C127.6,81,133,75.6,133,69z M148,30H30v23h107v33H30v23v25h25v-25h82h11c6.6,0,12-5.4,12-12V53V42C160,35.4,154.6,30,148,30z" fill="#000" fill-rule="evenodd"></path>
+</svg>

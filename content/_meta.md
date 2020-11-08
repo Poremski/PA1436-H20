@@ -1,5 +1,5 @@
 ---
-Logo: image/leaf_256x256.png
+Logo: assets/img/logo.svg
 Tagline: Ännu en till portfolio
 Social:
     - title: Länk till sidans repositorium på GitHub.
