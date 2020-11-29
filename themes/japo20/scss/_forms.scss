@@ -1,0 +1,100 @@
+label,
+fieldset legend {
+    font-weight: bold;
+}
+
+input:not([type='checkbox']):not([type='radio']),
+button,
+select,
+textarea {
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    background: $white;
+    transition: none 0.2s ease-in;
+    transition-property: border-color, background, box-shadow;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    background: $white;
+    transition: none 0.2s ease-in;
+    transition-property: border-color, background, box-shadow;
+
+    legend {
+        border: 1px solid #ccc;
+        border-radius: 0.3em;
+        background: $white;
+        transition: none 0.2s ease-in;
+        transition-property: border-color, background, box-shadow;
+    }
+}
+
+input:not([type='checkbox']):not([type='radio']),
+button,
+select,
+textarea {
+    padding: 0.5em 1em;
+    outline: 0 none;
+    font-size: 1rem;
+}
+
+input:focus:not([type='checkbox']):not([type='radio']),
+button:focus,
+select:focus,
+textarea:focus {
+    border-color: #2eae9b;
+    box-shadow: 0 0 8px $jungle-green;
+}
+
+input:focus {
+    background: $wild-sand;
+    cursor: pointer;
+}
+
+button {
+    &:focus,
+    &:hover {
+        background: $wild-sand;
+        cursor: pointer;
+    }
+}
+
+textarea,
+select {
+    vertical-align: bottom;
+    overflow: auto;
+}
+
+fieldset {
+    padding: 1em;
+    background: $wild-sand;
+
+    legend {
+        padding: 0 0.5em;
+    }
+
+    label,
+    input,
+    button,
+    select,
+    textarea {
+        margin: 0.2em 0.5em;
+    }
+
+    label:first-child,
+    input:first-child,
+    button:first-child,
+    select:first-child,
+    textarea:first-child {
+        margin-left: 0;
+    }
+
+    label:last-child,
+    input:last-child,
+    button:last-child,
+    select:last-child,
+    textarea:last-child {
+        margin-right: 0;
+    }
+}

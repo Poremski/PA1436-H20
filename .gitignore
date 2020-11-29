@@ -16,3 +16,7 @@ desktop.ini
 
 # NPM
 themes/node_modules/
+
+# Compiled files
+/themes/japo20/css/
+!/themes/jap20/css/.gitkeep

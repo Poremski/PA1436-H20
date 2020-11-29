@@ -1,0 +1,62 @@
+.image {
+    display: block;
+    margin: 0 auto;
+
+    &.xsmall {
+        width: 20%;
+    }
+
+    &.small {
+        width: 40%;
+    }
+
+    &.large {
+        width: 60%;
+    }
+
+    &.xlarge {
+        width: 80%;
+    }
+
+    &.float-left {
+        float: left;
+        margin: 1em 2em 1em 0;
+    }
+
+    &.float-right {
+        float: right;
+        margin: 1em 0 1em 2em;
+    }
+
+    img {
+        display: block;
+        width: 100%;
+    }
+
+    &.about-me-img {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 767px) {
+    .image {
+        &.xsmall {
+            width: 60%;
+        }
+
+        &.small {
+            width: 80%;
+        }
+
+        &.large,
+        &.xlarge {
+            width: 100%;
+        }
+
+        &.float-left,
+        &.float-right {
+            float: none;
+            margin: 0 auto;
+        }
+    }
+}

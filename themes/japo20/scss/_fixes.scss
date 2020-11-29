@@ -1,0 +1,21 @@
+/* Firefox input size fix */
+
+input::-moz-focus-inner,
+button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+/* IE8 + IE9 clearfix */
+
+.header > .container::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* very ugly overflow fix, avoid this whenever possible! */
+
+.main .container {
+    overflow-x: auto;
+}

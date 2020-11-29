@@ -1,0 +1,31 @@
+{
+  "name": "japo20",
+  "version": "0.1.0",
+  "description": "The japo20's theme",
+  "main": "index.js",
+  "scripts": {
+    "lint": "stylelint \"scss/**/*.scss\"",
+    "style": "sass scss/style.scss css/style.css --no-source-map",
+    "style-min": "sass scss/style.scss css/style.min.css --no-source-map --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Poremski/PA1436-H20.git"
+  },
+  "keywords": [
+    "theme",
+    "pico"
+  ],
+  "author": "Javier Poremski <javier@poremski.se>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Poremski/PA1436-H20/issues"
+  },
+  "homepage": "https://github.com/Poremski/PA1436-H20#readme",
+  "devDependencies": {
+    "normalize-scss": "^7.0.1",
+    "sass": "^1.29.0",
+    "stylelint": "^13.8.0",
+    "stylelint-config-sass-guidelines": "^7.1.0"
+  }
+}
