@@ -5,7 +5,7 @@ Description: Detta är startsidan för webbplatsen.
 
 # Om mig
 
-[![En bild på Javier](assets/img/me.jpg)](%base_url% "En bild på Javier") {.image .small .float-right}
+[![En bild på Javier](assets/img/me.jpg)](%base_url% "En bild på Javier") {.image .small .float-right .about-me-img} 
 
 Javier heter jag, född och uppvuxen i Skåne men bor nu i Göteborg där jag arbetar på ett webbhotell som utvecklare.
 
